@@ -1,0 +1,49 @@
+app_version: 3.7.0
+capabilities:
+- description: RomM is able to chown files.
+  name: CHOWN
+- description: RomM is able to set user ID for it's sub-processes.
+  name: SETUID
+- description: RomM is able to set group ID for it's sub-processes.
+  name: SETGID
+categories:
+- games
+description: RomM allows you to scan, enrich, browse and play your game collection with a clean and responsive interface.
+  With support for multiple platforms, various naming schemes, and custom tags, RomM is a must-have for anyone who plays on emulators.
+home: https://romm.app/
+host_mounts: []
+icon: https://media.sys.truenas.net/apps/romm/icons/icon.png
+keywords:
+- games
+- retro
+- emulation
+lib_version: 2.1.6 # Fix?
+lib_version_hash: 84c965e8b9bea696765ab62b8ee3238162fe7807d0f0a61cf9c153994a47fa90 # Fix?
+maintainers:
+- email: dev@ixsystems.com
+  name: truenas
+  url: https://www.truenas.com/
+- email: arcane@romm.app
+  name: arcaneasada
+  url: https://romm.app/
+name: romm
+run_as_context:
+- description: RomM runs as the root user.
+  gid: 0
+  group_name: root
+  uid: 0
+  user_name: root
+- description: MariaDB runs as non-root user.
+  gid: 999
+  group_name: mariadb
+  uid: 999
+  user_name: mariadb
+screenshots:
+- https://media.sys.truenas.net/apps/romm/screenshots/screenshot1.png
+- https://media.sys.truenas.net/apps/romm/screenshots/screenshot2.png
+- https://media.sys.truenas.net/apps/romm/screenshots/screenshot3.png
+sources:
+- https://github.com/rommapp/romm
+title: RomM
+train: community
+version: 1.0.0

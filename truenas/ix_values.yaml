@@ -1,0 +1,16 @@
+images:
+  image:
+    repository: rommapp/romm
+    tag: 3.7.0
+  mariadb_image:
+    repository: mariadb
+    tag: 11.6.2
+
+consts:
+  romm_container_name: romm
+  perms_container_name: permissions
+  mariadb_container_name: mariadb
+  internal_web_port: 8080
+  notes_body: |
+    Check out the [Quick Start Guide](https://github.com/rommapp/romm/wiki/Quick-Start-Guide)
+    and [general documentation](https://github.com/rommapp/romm/wiki) for more information.
