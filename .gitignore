@@ -1,1 +1,3 @@
 .DS_Store
+truenas/templates/rendered/
+truenas/templates/library/
