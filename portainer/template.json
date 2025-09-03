@@ -55,7 +55,7 @@
           "default": "/path/to/library"
         }
       ],
-      "logo": "https://raw.githubusercontent.com/rommapp/romm/refs/heads/release/.github/resources/isotipo.svg",
+      "logo": "https://raw.githubusercontent.com/rommapp/romm/refs/heads/master/.github/resources/isotipo.svg",
       "name": "romm",
       "note": "Check out <a href='https://github.com/rommapp/romm/wiki' target='_blank' rel='noopener'>the wiki</a> for more information.",
       "platform": "linux",
