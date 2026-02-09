@@ -4,7 +4,7 @@ This is a collection of templates for community app repositories on popular ecos
 
 ## CasaOS
 
-Users on CasaOS can install RomM via the [Big Bea CasaOS App Store](https://community.bigbeartechworld.com/).
+Users on CasaOS can install RomM via the [Big Bear CasaOS App Store](https://community.bigbeartechworld.com/).
 
 ### Updating the Big Bear repository
 
